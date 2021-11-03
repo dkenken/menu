@@ -1,5 +1,8 @@
-let userAnswer = prompt("Do you want a free Taco TODAY!");
+function offerUserTacos() {
+  let userAnswer = prompt("Do you want a free Taco TODAY!");
 
-if (userAnswer.toLowerCase() == "yes") {
-  document.write("REQUEST");
+  if (userAnswer.toLowerCase() == "yes") {
+    document.write("REQUEST");
+  }
 }
+offerUserTacos();
