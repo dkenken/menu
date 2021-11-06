@@ -1,33 +1,33 @@
-// let userName = prompt("What is your name?");
+let userName = prompt("What is your name?");
 
-// let userAge = prompt("What is your age?");
+let userAge = prompt("What is your age?");
 
-// function getUserName() {
-//   if (userName == "Ken") {
-//     document.write("<h2>Welcome Monsieur " + userName + "<h2>");
-//   } else {
-//     document.write("<h2>Welcome " + userName + "</h2>");
-//   }
-// }
-// // getUserName();
+function getUserName() {
+  if (userName == "Ken") {
+    document.write("<h2>Welcome Monsieur " + userName + "<h2>");
+  } else {
+    document.write("<h2>Welcome " + userName + "</h2>");
+  }
+}
+getUserName();
 
-// function offerUserTacos() {
-//   let userAnswer = prompt("Do you want a free Taco TODAY!");
+function offerUserTacos() {
+  let userAnswer = prompt("Do you want a free Taco TODAY!");
 
-//   if (userAnswer.toLowerCase() == "yes") {
-//     document.write("REQUEST");
-//   }
-// }
+  if (userAnswer.toLowerCase() == "yes") {
+    document.write("REQUEST");
+  }
+}
 
-// let userNumberAnswer = prompt("Please Enter a between 1-10");
+let userNumberAnswer = prompt("Please Enter a between 1-10");
 
-// function getUserNumberOneToTen() {
-//   if (userNumberAnswer > 10 || userNumberAnswer < 0) {
-//     let userNumberAnswer = prompt("Try Again. Enter a between 1-10");
-//   }
-// }
+function getUserNumberOneToTen() {
+  if (userNumberAnswer > 10 || userNumberAnswer < 0) {
+    let userNumberAnswer = prompt("Try Again. Enter a between 1-10");
+  }
+}
 
-// getUserNumberOneToTen();
+getUserNumberOneToTen();
 
 function randomNumber() {
   let randomNumber = Math.floor(Math.random() * 20) + 1;
